@@ -1,0 +1,50 @@
+#pipeline {
+    agent any
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+                // Clone the Git repository containing the Flask application
+                git url: 'https://github.com/your-username/simple-flask-app.git', branch: 'main'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                // Build Docker image for the Flask app
+                script {
+                    dockerImage = docker.build("simple-flask-app")
+                }
+            }
+        }
+
+        stage('Run Docker Container') {
+            steps {
+                // Run Docker container for the Flask app
+                script {
+                    dockerImage.run("-p 5000:5000")
+                }
+            }
+        }
+
+        stage('Test') {
+            steps {
+                // Run any test scripts here
+                echo 'Running tests...'
+                // Example test step: sh 'pytest tests/'
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Cleaning up...'
+        }
+        success {
+            echo 'Pipeline completed successfully!'
+        }
+        failure {
+            echo 'Pipeline failed!'
+        }
+    }
+}
