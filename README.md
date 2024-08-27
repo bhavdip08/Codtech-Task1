@@ -1,16 +1,17 @@
-Name: Bhavdip Akabari
-Company: Codtech It Solutions
-ID: CT08DS6150
-Domain: DevOps Intern
-Duration: Aug To Aug 2024
-Mentor: Muzammil Ahmed
+**Name:** Bhavdip Akabari
+**Company:** Codtech It Solutions
+**ID:** CT08DS6150
+**Domain:** DevOps Intern
+**Duration:** Aug To Aug 2024
+**Mentor:** Muzammil Ahmed
 
-# Overview of the Project
+## Overview of the Project
 
-# Project: CI/CD PIPELINE WITH JENKINS
+### Project: CI/CD PIPELINE WITH JENKINS
 
-# Objective: 
+### Objective: 
 
-# Key Activities: 
+### Key Activities: 
 
-# Technology Used: 
+### Technology Used: 
+- **Python**:
