@@ -14,6 +14,14 @@ Set up a continuous integration/continuous deployment (CI/CD) pipeline using
  Jenkins to automate the build, test, and deployment processes. Install and
  configure Jenkins. Create a Jenkins pipeline to build, test, and deploy a simple
  application
+ ![Screenshot (19)](https://github.com/user-attachments/assets/7b95c44d-66c4-4d28-9b1a-1d4110aa760a)
+ This is Simple Application Output from jenkins  
+
+ ![Screenshot (20)](https://github.com/user-attachments/assets/da57d7ec-bfde-4f0b-9910-4553c5f1b668)
+ This is sucessfully application Build Through jenkins pipeline
+
+
+
 
 ### Key Activities: 
 - **Step 1: Install and Configure Jenkins on Windows**  
